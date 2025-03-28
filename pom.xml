@@ -18,7 +18,12 @@
         <license/>
     </licenses>
     <developers>
-        <developer/>
+        <developer>
+            <name>Mercado Pago</name>
+            <email>mp_sdk@mercadopago.com</email>
+            <organization>Mercado Pago</organization>
+            <organizationUrl>https://www.mercadopago.com/developers</organizationUrl>
+        </developer>
     </developers>
     <scm>
         <connection/>
@@ -77,6 +82,13 @@
             <artifactId>jackson-datatype-hibernate5-jakarta</artifactId>
             <version>2.18.3</version>
         </dependency>
+        <!--Mercado Libre-->
+        <dependency>
+            <groupId>com.mercadopago</groupId>
+            <artifactId>sdk-java</artifactId>
+            <version>2.1.29</version>
+        </dependency>
+        <!---->
     </dependencies>
 
     <build>
