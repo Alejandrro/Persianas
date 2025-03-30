@@ -17,4 +17,8 @@ public class MercadoConfig {
         System.out.println("agregando el token de mercado:::" + token);
         MercadoPagoConfig.setAccessToken(token);
     }
+
+    public String toke() {
+        return token;
+    }
 }

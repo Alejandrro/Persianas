@@ -11,5 +11,9 @@ import java.util.List;
 @AllArgsConstructor
 public class MercadoPagoRequest {
 
+    private String notificacion;
+
+    private String email = "allejandro_15@hotmail.com";
+
     private List<Articulos> articulos;
 }
